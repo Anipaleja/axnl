@@ -1,6 +1,6 @@
 # Adaptive eXecution Neural Layer (axnl)
 
-**AXNL (Adaptive eXecution Neural Layer)** is a general agentic AI framework designed for maximum control, transparency, and architectural flexibility. Built in **pure Python** (with optional future support for Rust/C++ extensions), AXNL enables construction of neural systems from first principles using either hand-coded components or low-level PyTorch modules, while  avoiding reliance on pretrained black box models.
+**AXNL (Adaptive eXecution Neural Layer)** is a general agentic framework designed for maximum control, transparency, and architectural flexibility. Built in **pure Python** (with optional future support for Rust/C++ extensions), AXNL enables construction of neural systems from first principles using either hand-coded components or low-level PyTorch modules, while  avoiding reliance on pretrained black box models.
 
 AXNL prioritizes **modularity**, **agentic reasoning**, **interpretability**, and **low-level performance control**, making it a foundation for research, experimentation, and production-grade AI systems without external model dependencies.
 
@@ -44,7 +44,7 @@ timeline
 - Pure Python core with minimal abstraction
 - Custom neural systems (MLPs, CNNs, RNNs, attention mechanisms)
 - Agentic execution layer with memory and planning
-- Tool-use and inter-agent communication
+- Tool use and inter-agent communication
 - Sensor fusion support (vision, audio, structured data)
 - Training + debugging toolchain (optimizers, schedulers, logging)
 - Extensible backend path for Rust/C++ + CUDA acceleration
